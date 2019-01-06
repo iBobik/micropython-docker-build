@@ -25,4 +25,4 @@ ENV PATH=/esp-open-sdk/xtensa-lx106-elf/bin:$PATH
 
 RUN cd micropython/mpy-cross && make
 
-RUN cd micropython/esp8266 && make axtls && make
+RUN cd micropython/ports/esp8266 && make
